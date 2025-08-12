@@ -50,7 +50,7 @@ float sp2 = 0.0;
             printf("Densidade populacional: %.2f\n", denpop1);
             printf("PIB per capita: %.2f\n", pibcap1);
             printf("\n");
-    sp1 = pop1 + km1 + pib1 + tur1 + pibcap1 + (1 / denpop1);
+        sp1 = pop1 + km1 + pib1 + tur1 + pibcap1 + (1 / denpop1);
 
     printf("Insira as informações sobre as cartas,\nQual é o estado da carta 2?\n");
         scanf("%s", est2);
@@ -80,8 +80,7 @@ float sp2 = 0.0;
             printf("Densidade populacional: %.2f\n", denpop2);
             printf("PIB per capita: %.2f\n", pibcap2);
             printf("\n");
-
-    sp2 = pop2 + km2 + pib2 + tur2 + pibcap2 + (1 / denpop2);
+        sp2 = pop2 + km2 + pib2 + tur2 + pibcap2 + (1 / denpop2);    
             
             printf("Comparação das Cartas:\n");
     if(pop1 > pop2){
@@ -116,8 +115,8 @@ float sp2 = 0.0;
     }        
     if(sp1 > sp2){
         printf("Super poder: Carta 1 venceu\n");
-    } else 
+    } else {
         printf("Super poder: Carta 2 venceu\n");
-    {              
+    }              
 return 0;
 }
